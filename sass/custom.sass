@@ -1,0 +1,177 @@
+@import 'variables'
+
+/***************************/
+/* Program                 */
+/***************************/
+
+header
+  background-color: $header-bg-color
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, $header-bg-color), color-stop(1, $header-bg-color)) !important
+  background: -moz-linear-gradient(top, $header-bg-color 5%, $header-bg-color 100%) !important
+  background: -webkit-linear-gradient(top, $header-bg-color 5%, $header-bg-color 100%) !important
+  background: -o-linear-gradient(top, $header-bg-color 5%, $header-bg-color 100%) !important
+  background: -ms-linear-gradient(top, $header-bg-color 5%, $header-bg-color 100%) !important
+  background: linear-gradient(to bottom, $header-bg-color 5%, $header-bg-color 100%) !important
+
+header .fa
+  color: $header-fa-color
+
+select,
+input[type="number"],
+input[type="date"],
+input[type="email"],
+input[type="password"],
+input[type="text"]:not(.input-addon-field)
+  padding: 3px
+
+.views a
+  font-size: 15px
+
+.select-dropdown-input-container
+  border: 1px solid #ccc
+  border-radius: 0
+  background: #fff
+
+.sidebar
+  font-size: $sidebar-font-size !important
+  font-weight: $sidebar-font-weight !important
+  background: $sidebar-bg-color
+  color: $sidebar-color !important
+  min-width: $sidebar-min-width !important
+  padding-left: $sidebar-padding-left !important
+
+.sidebar .sidebar-title
+  padding-left: 5px
+
+.sidebar h2
+  color: $sidebar-title-color
+
+.sidebar a .fa
+  color: $sidebar-color !important
+
+.sidebar a:hover .fa
+  color: $sidebar-color-hover !important
+
+.sidebar > ul li
+  border-bottom: $sidebar-underline !important
+
+.sidebar > ul a
+  font-weight: $sidebar-font-weight
+  color: $sidebar-color !important
+
+.sidebar > ul li.active
+  border-left: $sidebar-nav-border-width solid $sidebar-nav-color-active !important
+
+.sidebar > ul li.active a
+  color: $sidebar-color-active !important
+
+.sidebar > ul li.active
+  border-left: $sidebar-nav-border-width solid $sidebar-nav-color-active !important
+
+.sidebar > ul li.active a:focus,
+.sidebar > ul li.active a:hover
+  color: $sidebar-color-active !important
+
+.sidebar > ul a:hover,
+.sidebar > ul li.active a:hover
+  color: $sidebar-color-hover !important
+
+.sidebar > ul li:hover
+  border-left: $sidebar-nav-border-width solid $sidebar-nav-color-hover
+
+.sidebar.sidebar-icons li,
+.sidebar.sidebar-icons li:focus
+    padding-left: $sidebar-icons-li-calculated
+
+.sidebar.sidebar-icons > ul li.active,
+.sidebar.sidebar-icons li:hover
+    padding-left: $sidebar-icons-li-hover-active-calculated
+
+
+.page-header
+  border-radius: 0 !important
+  margin-top: $pageheader-margin-top !important
+  margin-bottom: $pageheader-margin-bottom !important
+  background: $pageheader-bg-color !important
+  padding: $pageheader-padding !important
+  border-bottom: $pageheader-border-bottom !important
+
+.page-header ul
+  padding-bottom: 10px !important
+
+.page-header li
+  font-size: 15px
+
+.panel
+  border-radius: 0
+
+.project-header
+  background-color: #fff !important
+  font-size: 14px !important
+  margin-bottom: 10px !important
+  padding: 10px 15px 10px !important
+
+.task-summary-container
+  border-radius: 0
+
+.task-board-category
+  border: 3px solid #f1f1f1
+
+.task-board-icons .task-board-icons-row
+  font-size: 13px
+
+.task-board-category a
+  padding: 5px
+
+a .fa
+  font-size: 16px
+
+.project-header .dropdown-component a.action-menu
+  font-size: 15px
+
+.project-header .views-switcher-component
+  margin-top: 2px
+
+.views li:first-child
+  border-top-left-radius: 0
+  border-bottom-left-radius: 0
+
+.views li:last-child
+  border-top-right-radius: 0
+  border-bottom-right-radius: 0
+
+.input-addon-item:last-child
+  border-radius: 0
+
+.input-addon-item:first-child
+  border-radius: 0
+
+.board-task-list > div
+  border-left-width: 6px !important
+  padding-left: 10px !important
+  margin-left: 4px !important
+  margin-right: 4px !important
+
+.task-board-icons-row .fa
+  color: $color-blue-dark
+
+span.task-date-today
+  color: $color-dark-grey-dark
+
+#form-application_stylesheet
+  font-family: 'Courier new'
+  font-size: 13px
+
+.task-summary-column span
+  color: #3c3c3c !important
+
+.draggable-placeholder
+    border: $draggable-placeholder-border
+    background: $draggable-placeholder-bg-color
+
+div.draggable-item-selected
+    border: $draggable-item-selected-border
+
+#select-dropdown-menu
+    overflow-y: auto !important
+    overflow-x: hidden !important

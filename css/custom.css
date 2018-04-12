@@ -1,0 +1,176 @@
+/* Login Form */
+/************************** */
+/* Program                 */
+/************************** */
+header {
+  background-color: #1e88e5;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #1e88e5), color-stop(1, #1e88e5)) !important;
+  background: -moz-linear-gradient(top, #1e88e5 5%, #1e88e5 100%) !important;
+  background: -webkit-linear-gradient(top, #1e88e5 5%, #1e88e5 100%) !important;
+  background: -o-linear-gradient(top, #1e88e5 5%, #1e88e5 100%) !important;
+  background: -ms-linear-gradient(top, #1e88e5 5%, #1e88e5 100%) !important;
+  background: linear-gradient(to bottom, #1e88e5 5%, #1e88e5 100%) !important; }
+
+header .fa {
+  color: #ececec; }
+
+select,
+input[type="number"],
+input[type="date"],
+input[type="email"],
+input[type="password"],
+input[type="text"]:not(.input-addon-field) {
+  padding: 3px; }
+
+.views a {
+  font-size: 15px; }
+
+.select-dropdown-input-container {
+  border: 1px solid #ccc;
+  border-radius: 0;
+  background: #fff; }
+
+.sidebar {
+  font-size: 1em !important;
+  font-weight: 400 !important;
+  background: #32404E;
+  color: #bebebe !important;
+  min-width: 200px !important;
+  padding-left: 0 !important; }
+
+.sidebar .sidebar-title {
+  padding-left: 5px; }
+
+.sidebar h2 {
+  color: #fff; }
+
+.sidebar a .fa {
+  color: #bebebe !important; }
+
+.sidebar a:hover .fa {
+  color: #e2e2e2 !important; }
+
+.sidebar > ul li {
+  border-bottom: 1px solid #516873 !important; }
+
+.sidebar > ul a {
+  font-weight: 400;
+  color: #bebebe !important; }
+
+.sidebar > ul li.active {
+  border-left: 5px solid #31adf6 !important; }
+
+.sidebar > ul li.active a {
+  color: #e2e2e2 !important; }
+
+.sidebar > ul li.active {
+  border-left: 5px solid #31adf6 !important; }
+
+.sidebar > ul li.active a:focus,
+.sidebar > ul li.active a:hover {
+  color: #e2e2e2 !important; }
+
+.sidebar > ul a:hover,
+.sidebar > ul li.active a:hover {
+  color: #e2e2e2 !important; }
+
+.sidebar > ul li:hover {
+  border-left: 5px solid #c6c6c6; }
+
+.sidebar.sidebar-icons li,
+.sidebar.sidebar-icons li:focus {
+  padding-left: 10px; }
+
+.sidebar.sidebar-icons > ul li.active,
+.sidebar.sidebar-icons li:hover {
+  padding-left: 5px; }
+
+.page-header {
+  border-radius: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 5px !important;
+  background: #fff !important;
+  padding: 5px 5px 5px 15px !important;
+  border-bottom: 1px solid #f1f1f1 !important; }
+
+.page-header ul {
+  padding-bottom: 10px !important; }
+
+.page-header li {
+  font-size: 15px; }
+
+.panel {
+  border-radius: 0; }
+
+.project-header {
+  background-color: #fff !important;
+  font-size: 14px !important;
+  margin-bottom: 10px !important;
+  padding: 10px 15px 10px !important; }
+
+.task-summary-container {
+  border-radius: 0; }
+
+.task-board-category {
+  border: 3px solid #f1f1f1; }
+
+.task-board-icons .task-board-icons-row {
+  font-size: 13px; }
+
+.task-board-category a {
+  padding: 5px; }
+
+a .fa {
+  font-size: 16px; }
+
+.project-header .dropdown-component a.action-menu {
+  font-size: 15px; }
+
+.project-header .views-switcher-component {
+  margin-top: 2px; }
+
+.views li:first-child {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0; }
+
+.views li:last-child {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0; }
+
+.input-addon-item:last-child {
+  border-radius: 0; }
+
+.input-addon-item:first-child {
+  border-radius: 0; }
+
+.board-task-list > div {
+  border-left-width: 6px !important;
+  padding-left: 10px !important;
+  margin-left: 4px !important;
+  margin-right: 4px !important; }
+
+.task-board-icons-row .fa {
+  color: #1e88e5; }
+
+span.task-date-today {
+  color: #78909c; }
+
+#form-application_stylesheet {
+  font-family: "Courier new";
+  font-size: 13px; }
+
+.task-summary-column span {
+  color: #3c3c3c !important; }
+
+.draggable-placeholder {
+  border: 2px dashed #a7a7a7;
+  background: #fafafa; }
+
+div.draggable-item-selected {
+  border: 1px solid #a7a7a7; }
+
+#select-dropdown-menu {
+  overflow-y: auto !important;
+  overflow-x: hidden !important; }
+
+/*# sourceMappingURL=custom.css.map */

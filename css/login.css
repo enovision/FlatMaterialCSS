@@ -1,0 +1,35 @@
+/* Login Form */
+/************************** */
+/* Login                   */
+/************************** */
+.form-login {
+  border: 5px solid #efefef;
+  padding: 20px;
+  margin: 10% auto 0;
+  background: #1e88e5; }
+
+.form-login label {
+  padding-bottom: 5px;
+  color: #fff; }
+
+.form-login .reset-password a {
+  color: #fff; }
+
+.form-login .reset-password a:hover {
+  color: #aae3ff; }
+
+.form-login input {
+  font-size: 18px;
+  padding: 5px; }
+
+.form-login .btn {
+  background: #add4f6;
+  color: #444; }
+
+.form-login .form-required {
+  color: #fff;
+  padding-left: 5px;
+  font-weight: bold;
+  font-size: 18px; }
+
+/*# sourceMappingURL=login.css.map */
